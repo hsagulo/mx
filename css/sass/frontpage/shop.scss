@@ -1,0 +1,13 @@
+section {
+	&.shop {
+		.entry-content {
+			background: url(../images/shop_bg.jpg)no-repeat center left;
+			background-size: cover;
+			padding: 2em 0 3em;
+			h2 {
+				color: $white;
+				@extend .caps;
+			}
+		}
+	}
+}

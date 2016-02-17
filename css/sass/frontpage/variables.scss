@@ -1,0 +1,91 @@
+
+// Colours
+
+$white: #fff;
+$green: #36fe00;
+$pink: #ff00a8;
+$darkgray: #393939;
+
+$black: #000;
+
+$fb: #0058c5;
+$tw: #00c6ff;
+$ig: #81523d;
+$in: #00a8ff;
+
+
+.fb {
+	background-color: $fb;
+	&:hover {
+		background-color: darken($fb, 5%);
+	}
+}
+
+.tw {
+	background-color: $tw;
+	&:hover {
+		background-color: darken($tw, 5%);
+	}
+}
+
+.ig {
+	background-color: $ig;
+	&:hover {
+		background-color: darken($ig, 5%);
+	}
+}
+
+.in {
+	background-color: $in;
+	&:hover {
+		background-color: darken($in, 5%);
+	}
+}
+
+
+// Text
+$caps: uppercase;
+
+
+.caps {
+	text-transform: $caps;
+}
+
+
+// font
+
+$heading: 'Amaranth', sans-serif;
+
+.htags {
+	font-family: $heading;
+}
+
+.awesome {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.circle {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+
+// buttons
+.noradius {
+	border-radius: 0;
+}
+
+// spacing & margins
+.mb2em {
+	margin-bottom: 2em;
+}
+
+.mb1em {
+	margin-bottom: 1em;
+}

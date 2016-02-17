@@ -1,0 +1,50 @@
+section {
+    &.newsletter {
+        font-size: 1em;
+        padding: 2em 0;
+
+        .entry-header {
+            margin-bottom: 2em;
+            h2.entry-title {
+                @extend .caps;
+                @extend .htags;
+                &:before {
+                    content: '___';
+                    display: block;
+                    color: $green;
+                    @extend .mb1em;
+                }
+            }
+        }
+
+        .entry-content {
+            form {
+                input {
+                    background: #bcbcbc;
+                    border-radius: 4px;
+                    padding: .5em 1em;
+                    border: none;
+                    outline: none;
+
+                    &::-moz-placeholder {
+                      color: #fff;
+                      font-weight: 400;
+                      opacity: 1;
+                    }
+
+                    &::-webkit-input-placeholder {
+                      color: #fff;
+                      font-weight: 400;
+                    }
+
+                    &.wpcf7-submit {
+                        background: #393939;
+                        color: #fff;
+                    }
+                
+                }
+            }
+        }
+
+    }
+}
