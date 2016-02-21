@@ -68,8 +68,8 @@ function custom_front_page_loop() {
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/erika.jpg" alt="" class="circle">
             </div>
             <div class="entry-content">
-              <p class="mb2em">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-              <p class="mb2em"><a href="#" class="btn btn-danger btn-lg">Read More</a></p>
+              <p class="mb2em">Zen is a way of being. In sports, its “the flow” or “in the zone”. If your living in the world of motocross, you can relate to this because in motocross, its not a hobby, its a way of life. In the “flow”, the extraordinary capacities that lie within each individual manifest. The grasp this hidden dimension is to transform the very meaning of racing. “What separates the gold medalists from the silver medalists is simply the mental game.” </p>
+              <p class="mb2em"><a href="/about" class="btn btn-danger btn-lg">Read More</a></p>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ function custom_front_page_loop() {
             <div class="col-md-6 col-md-offset-3">
               <header class="entry-header mb2em">
                 <h2 class="entry-title">CONTACT</h2>
-                <h3><a href="tel:7178171286" target="_blank">717-817-1286</a> / <a href="mailto:eborn464@icloud.com" target="_blank">eborn464@icloud.com</a></h3>
+                <h3><a href="tel:7178171286" target="_blank">717-817-1286</a> / <a href="mailto:erika@mxzen.com" target="_blank">erika@mxzen.com</a></h3>
                 <p class="name">ERIKA BORN</p>
               </header>
               <div class="entry-content">
@@ -149,7 +149,7 @@ function custom_front_page_loop() {
               <li><a href="https://www.facebook.com/bornracingmx" title="" target="_blank"><span class="fb"><i class="fa fa-lg fa-facebook-f"></i></span></a></li>
               <li><a href="https://twitter.com/borngroup" title="" target="_blank"><span class="tw"><i class="fa fa-lg fa-twitter"></i></span></a></li>
               <li><a href="https://www.instagram.com/bornracingmx/" title="" target="_blank"><span class="ig"><i class="fa fa-lg fa-instagram"></span></i></a></li>
-              <li><a href="https://plus.google.com/+ErikaBorn464" title="" target="_blank"><span class="in"><i class="fa fa-lg fa-google-plus"></span></i></a></li>
+              <li><a href="https://plus.google.com/+ErikaBorn464" title="" target="_blank"><span class="lin"><i class="fa fa-lg fa-google-plus"></span></i></a></li>
               <li><a href="#" title="" target="_blank"><span class="ho"><i class="fa fa-lg fa-hype"></i></span></a></li>
             </ul>
           </div>

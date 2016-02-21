@@ -8,9 +8,9 @@ $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
 $brand-primary:         darken(#ff00a8, 6.5%) !default; // #337ab7
-$brand-success:         #5cb85c !default;
+$brand-success:         #BCD530 !default;
 $brand-info:            #5bc0de !default;
-$brand-warning:         #ffcc00 !default;
+$brand-warning:         #ff00a8 !default;
 $brand-danger:          #ff00a8 !default;
 
 
@@ -138,12 +138,12 @@ $lato: 'Lato', sans-serif;
 
 
 .htags {
-  font-family: $universLt;
+  font-family: $universLtBoldCn;
 }
 
 
 h1, h2, h3, h4, h5 {
-  font-family: inherit;
+  font-family: $universLtBoldCn;
 }
 
 .awesome {

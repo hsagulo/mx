@@ -5,6 +5,13 @@ a {
   	text-transform: uppercase;
     @extend .noradius;
     padding: .5em 1em;
+    
+    &.btn-success {
+      background: $brand-success;
+    }
+    &.btn-warning {
+      background: $brand-warning;
+    }
     &:after {
       content: "\f178";
       margin-left: .75em;
@@ -17,6 +24,8 @@ a {
   .entry-title {
     text-align: center;
     color: $pink;
-    font-family: $vincent;
+    font-family: $universLtBoldCn;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
