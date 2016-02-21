@@ -7,7 +7,7 @@ if ( class_exists('UberMenuStandard') ) {
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 // add primary & secondary nav to top of the page
-add_action( 'genesis_before', 'genesis_do_nav' );
+// add_action( 'genesis_before', 'genesis_do_nav' );
 add_action( 'genesis_before', 'genesis_do_subnav' );
 
 // filter menu args for bootstrap walker and other settings
@@ -70,13 +70,13 @@ EOT;
 }
 
 function bsg_navbar_brand_markup() {
-    $output = '<a class="navbar-brand" id="logo" title="' .
-        esc_attr( get_bloginfo( 'description' ) ) .
-        '" href="' .
-            esc_url( home_url( '/' ) ) .
-    '">';
-        $output .= get_bloginfo( 'name' );
-    $output .= '</a>';
+    // $output = '<a class="navbar-brand" id="logo" title="' .
+    //     esc_attr( get_bloginfo( 'description' ) ) .
+    //     '" href="' .
+    //         esc_url( home_url( '/' ) ) .
+    // '">';
+    //     $output .= get_bloginfo( 'name' );
+    // $output .= '</a>';
 
-    return $output;
+    // return $output;
 }

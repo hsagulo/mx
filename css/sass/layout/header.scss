@@ -1,0 +1,81 @@
+.header-section {
+    font-size: 1em;
+    background: url(../images/header_bg.jpg)no-repeat;
+    background-size: cover;
+    padding-bottom:2em;
+
+    .nav-primary {
+      font-size: 1.5em;
+      font-family: $universLt;
+      @extend .caps;
+      &.navbar-default {
+        background: none;
+        border: none;
+      }
+      li {
+        a {
+          color: $white;
+          &:hover {
+            color: $green;
+          }
+        }
+        &.active {
+          a {
+            color: darken($white, 10%);
+            background: none;
+            &:hover {
+              background: none;
+            }
+          }
+        }
+      }
+    }
+}
+
+.site-header {
+  .title-area {
+    width: 8em;
+    float: left;
+    .site-title {
+        a {
+          width: 100%;
+          background: url(../images/logo.png) no-repeat top center;
+          background-size: 100%;
+          text-indent: -10000px;
+          display: inline-block;
+          min-height: 4em;
+        }
+    }
+  }
+
+
+  .widget {
+      border: none;
+  }
+
+  .widget-area {
+    width: 50%;
+    font-family: $universLtBoldCn;
+    padding-top: 3em;
+    padding-right: 2em;
+    text-align: right;
+    float: right;
+    h2 {
+      font-size: 3em;
+    }
+  }
+
+}
+
+.page {
+  .site-header {
+    padding: 0;
+      .title-area {
+          .site-title {
+              a {
+                min-height:10em;
+              }
+          }
+      }
+  }
+}

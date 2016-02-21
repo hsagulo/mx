@@ -1,0 +1,22 @@
+a {
+  &.btn {
+  	font-family: $oswald;
+  	font-size: 1.4em;
+  	text-transform: uppercase;
+    @extend .noradius;
+    padding: .5em 1em;
+    &:after {
+      content: "\f178";
+      margin-left: .75em;
+      @extend .awesome;
+    }
+  }
+}
+
+.page {
+  .entry-title {
+    text-align: center;
+    color: $pink;
+    font-family: $vincent;
+  }
+}

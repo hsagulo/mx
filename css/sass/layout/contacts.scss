@@ -1,0 +1,74 @@
+section {
+  &.contacts {
+    font-size: 1em;
+    padding: 3em 0 4em;
+
+    h2,h3,p {
+      font-family: $oswald;
+    }
+
+    form {
+      input, textarea {
+        width: 100%;
+        background: lighten($darkgray, 60%);
+        border-radius: 4px;
+        padding: .5em 1em;
+        border: 1px solid lighten($darkgray, 60%);
+        outline: none;
+
+        &:focus {
+          background: lighten($darkgray, 70%);
+          border: 1px solid $pink;
+        }
+
+        &::-moz-placeholder {
+          color: #333;
+          font-weight: 400;
+          opacity: 1;
+        }
+
+        &::-webkit-input-placeholder {
+          color: #333;
+          font-weight: 400;
+        }
+
+        &.wpcf7-submit {
+          font-size: 1.5em;
+          font-family: $oswald;
+          background: $pink;
+          color: #fff;
+          &:hover {
+            background: $gray;
+          }
+        }
+      }
+    }
+
+    .socials{
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 1.5em;
+      }
+      li {
+        a {
+          color: $white;
+          span {
+            width: 2.75em;
+            height: 2.75em;
+            padding: .5em;
+            display: block;
+            @extend .circle;
+          }
+        }
+        &:last-child {
+          span {
+            background: $black url(../images/hookit.png)no-repeat center;
+            &:hover {
+              background-color: lighten($black, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+}

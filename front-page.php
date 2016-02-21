@@ -81,35 +81,25 @@ function custom_front_page_loop() {
             <h2 class="entry-title">Projects</h2>
           </header>
           <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_caseycochrans.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_caseycochran.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_kyle_v1.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v1.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_kyle_v2.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v2.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/mockup_kylebitterman.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/kylebitterman_v1_full.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumb_mockup.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
-          </div>
-          <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
-          </div>
-          <div class="col-md-4 col-sm-6 item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
-          </div>
-          <div class="col-md-4 col-sm-6 hidden-sm item">
-            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/kylebitterman_mockup_tab_mobile.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mockup_kylebitterman_thumb_mob.jpg" alt=""></a>
           </div>
 
-          <p class="mb2em"><a href="#" class="btn btn-danger btn-lg">Order Now</a></p>
-
+          <!-- <p class="mb2em"><a href="#" class="btn btn-danger btn-lg">Order Now</a></p>-->
         </div>
       </section>
 
@@ -117,7 +107,7 @@ function custom_front_page_loop() {
         <div class="container">
           <div class="col-md-10 col-md-offset-1">
             <header class="entry-header">
-              <h2 class="entry-title">Projects</h2>
+              <h2 class="entry-title">Newsletter</h2>
               <p><em>Stay updated with our latest events and promos! </em></p>
             </header>
             <div class="entry-content">
@@ -132,7 +122,7 @@ function custom_front_page_loop() {
           <div class="col-md-12 entry-content">
             <div class="col-md-6 col-md-offset-6">
               <h2>Motocross Safety Gear and Accessories </h2>
-              <a href="#" title="" class="btn btn-warning btn-lg">GO TO MX SHOP!</a>
+              <a href="http://www.bornracingmx.com" title="" class="btn btn-warning btn-lg" target="_blank">GO TO MX SHOP!</a>
             </div>
           </div>
         </div> 
@@ -144,7 +134,7 @@ function custom_front_page_loop() {
             <div class="col-md-6 col-md-offset-3">
               <header class="entry-header mb2em">
                 <h2 class="entry-title">CONTACT</h2>
-                <h3>717-817-1286 / eborn464@icloud.com</h3>
+                <h3><a href="tel:7178171286" target="_blank">717-817-1286</a> / <a href="mailto:eborn464@icloud.com" target="_blank">eborn464@icloud.com</a></h3>
                 <p class="name">ERIKA BORN</p>
               </header>
               <div class="entry-content">
@@ -156,11 +146,11 @@ function custom_front_page_loop() {
           <div class="row socials" id="section-social">
             <h2>SOCIALS</h2>
             <ul class="list-inline">
-              <li><a href="#" title=""><span class="fb"><i class="fa fa-lg fa-facebook-f"></i></span></a></li>
-              <li><a href="#" title=""><span class="tw"><i class="fa fa-lg fa-twitter"></i></span></a></li>
-              <li><a href="#" title=""><span class="ig"><i class="fa fa-lg fa-instagram"></span></i></a></li>
-              <li><a href="#" title=""><span class="in"><i class="fa fa-lg fa-linkedin"></span></i></a></li>
-              <li><a href="#" title=""><span class="ho"><i class="fa fa-lg fa-hype"></i></span></a></li>
+              <li><a href="https://www.facebook.com/bornracingmx" title="" target="_blank"><span class="fb"><i class="fa fa-lg fa-facebook-f"></i></span></a></li>
+              <li><a href="https://twitter.com/borngroup" title="" target="_blank"><span class="tw"><i class="fa fa-lg fa-twitter"></i></span></a></li>
+              <li><a href="https://www.instagram.com/bornracingmx/" title="" target="_blank"><span class="ig"><i class="fa fa-lg fa-instagram"></span></i></a></li>
+              <li><a href="https://plus.google.com/+ErikaBorn464" title="" target="_blank"><span class="in"><i class="fa fa-lg fa-google-plus"></span></i></a></li>
+              <li><a href="#" title="" target="_blank"><span class="ho"><i class="fa fa-lg fa-hype"></i></span></a></li>
             </ul>
           </div>
         </div>

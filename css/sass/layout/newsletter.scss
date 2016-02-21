@@ -1,0 +1,52 @@
+section {
+    &.newsletter {
+        font-size: 1em;
+        padding: 2em 0;
+
+        .entry-header {
+            margin-bottom: 2em;
+            h2.entry-title {
+                @extend .caps;
+                @extend .htags;
+                &:before {
+                    content: ' ';
+                    display: block;
+                    width: 1.5em;
+                    height: 2px;
+                    background: #36fe00;
+                    margin: 1em auto;
+                }
+            }
+        }
+
+        .entry-content {
+            form {
+                input {
+                    background: #bcbcbc;
+                    border-radius: 4px;
+                    padding: 1em;
+                    border: none;
+                    outline: none;
+
+                    &::-moz-placeholder {
+                      color: #fff;
+                      font-weight: 400;
+                      opacity: 1;
+                    }
+
+                    &::-webkit-input-placeholder {
+                      color: #fff;
+                      font-weight: 400;
+                    }
+
+                    &.wpcf7-submit {
+                        background: #393939;
+                        color: #fff;
+                    }
+                
+                }
+            }
+        }
+
+    }
+}

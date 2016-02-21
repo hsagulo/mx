@@ -1,0 +1,27 @@
+section {
+	&.about {
+		font-size: 1.125em;
+		padding: 2em 0;
+
+		h2 {
+		@extend .caps;
+		@extend .htags;
+		&:before {
+			content: ' ';
+	        display: block;
+	        width: 1.5em;
+	        height: 2px;
+	        background: #36fe00;
+	        margin: 1em auto;
+			}
+		}
+
+		.entry-content {
+			p {
+				font-size: .85em;
+				font-family: $lato;
+				margin-bottom: 2em;
+			}
+		}
+	}
+}

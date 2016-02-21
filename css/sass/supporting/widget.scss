@@ -7,9 +7,9 @@
     background-color: $widgetBgColor;
     border: 1px solid $widgetBorderColor;
     color: $widgetFontColor;
-    padding: $padding-large-vertical $padding-large-horizontal;
+    padding: 0;
     border-radius: $border-radius-large;
-    margin-bottom: ($line-height-computed * 1.5);
+    margin-bottom: 1em;
 
     ul {
         padding-left: 0;

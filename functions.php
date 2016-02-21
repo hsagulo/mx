@@ -55,12 +55,14 @@ function widget_first_last_classes($params) {
 add_theme_support( 'genesis-connect-woocommerce' ); //Connect WooCommerce on Genesis Theme
 
 
+
+
 // Enqueue Web Fonts
 add_action( 'wp_enqueue_scripts', 'custom_google_fonts' );
 function custom_google_fonts() {
 	wp_enqueue_style( 'google-opensans', '//fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic,700italic,800,300', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' );
-	wp_enqueue_style( 'webfonts', '//fonts.googleapis.com/css?family=Amaranth:400,700' );
+	wp_enqueue_style( 'webfonts', '//fonts.googleapis.com/css?family=Oswald' );
 }
 
 // Enqueue CSSs
@@ -90,3 +92,26 @@ add_action( 'genesis_before', 'genesis_to_top');
 function genesis_to_top() {
 	echo '<a href="#0" class="to-top" title="Back To Top">Top</a>';
 }
+
+ 
+add_action ( 'genesis_before_header', 'mx_before_header' );
+function mx_before_header() {
+	echo '<div class="header-section"><div class="container">';
+}
+
+// add_action ( 'genesis_header', 'mx_header' );
+// function mx_header() {
+
+// }
+
+
+add_action( 'genesis_after_header', 'genesis_do_new_header' ); 
+function genesis_do_new_header() { 
+		genesis_do_nav();
+	echo '</div></div>';
+}  
+
+
+
+
+

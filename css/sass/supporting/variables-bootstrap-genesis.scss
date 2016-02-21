@@ -1,5 +1,65 @@
 /* Variables
 ------------------------------------------------------------ */
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         darken(#ff00a8, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #ffcc00 !default;
+$brand-danger:          #ff00a8 !default;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+
+//** Global textual link color.
+$link-color:            #BCD530;
+
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 5%) !default;
+
+$pagination-color:                     $link-color !default;
+$pagination-bg:                        #fff !default;
+$pagination-border:                    #ddd !default;
+
+$panel-default-text:          $gray-dark !default;
+$panel-default-border:        #ddd !default;
+$panel-default-heading-bg:    #f5f5f5 !default;
+$state-warning-bg:            #fcf8e3 !default;
+
+
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+
+$line-height-base:        1.428571429 !default; // 20/14
+
+$thumbnail-caption-color:     $text-color !default;
+
 
 $galleryCaptionColor: $thumbnail-caption-color;
 
@@ -11,3 +71,107 @@ $commentBgColor: $body-bg;
 $commentBorderColor: $body-bg;
 $singleCommentBgColor: $panel-default-heading-bg;
 $singleCommentPostAuthorBgColor: $state-warning-bg;
+
+
+// Colours
+
+$white: #fff;
+$green: #BCD530;
+$pink: #ff00a8;
+$darkgray: #393939;
+
+$black: #000;
+
+$fb: #0058c5;
+$tw: #00c6ff;
+$ig: #81523d;
+$in: #00a8ff;
+
+
+.fb {
+  background-color: $fb;
+  &:hover {
+    background-color: darken($fb, 5%);
+  }
+}
+
+.tw {
+  background-color: $tw;
+  &:hover {
+    background-color: darken($tw, 5%);
+  }
+}
+
+.ig {
+  background-color: $ig;
+  &:hover {
+    background-color: darken($ig, 5%);
+  }
+}
+
+.lin {
+  background-color: $in;
+  &:hover {
+    background-color: darken($in, 5%);
+  }
+}
+
+
+// Text
+$caps: uppercase;
+
+
+.caps {
+  text-transform: $caps;
+}
+
+
+// font
+
+$universLt: 'UniversLTStdLightCn' , "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+$universLtBoldCn: 'UniversLTStdBoldCn' , "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+
+
+$vincent: 'Vincent', Oswald, sans-serif;
+$oswald: 'Oswald', Vincent, sans-serif;
+$lato: 'Lato', sans-serif;
+
+
+.htags {
+  font-family: $universLt;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: inherit;
+}
+
+.awesome {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.circle {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+
+// buttons
+.noradius {
+  border-radius: 0;
+}
+
+// spacing & margins
+.mb2em {
+  margin-bottom: 2em;
+}
+
+.mb1em {
+  margin-bottom: 1em;
+}

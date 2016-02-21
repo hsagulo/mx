@@ -9,7 +9,9 @@ function bsg_enqueue_css_js() {
     $version = wp_get_theme()->Version;
 
     // wp_enqueue_style( $handle, $src, $deps, $ver, $media );
+     wp_enqueue_style( 'bootstrap',  get_stylesheet_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6' );
     wp_enqueue_style( 'bsg_combined_css', get_stylesheet_directory_uri() . '/css/style.min.css', array(), $version );
+
 
     // wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
     // NOTE: this combined script is loading in the footer
