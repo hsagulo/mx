@@ -122,7 +122,7 @@ function custom_front_page_loop() {
           <div class="col-md-12 entry-content">
             <div class="col-md-6 col-md-offset-6">
               <h2>Motocross Safety Gear and Accessories </h2>
-              <a href="http://www.bornracingmx.com" title="" class="btn btn-warning btn-lg" target="_blank">GO TO MX SHOP!</a>
+              <a href="http://www.bornracingmx.com" title="" class="btn btn-danger btn-lg" target="_blank">GO TO MX SHOP!</a>
             </div>
           </div>
         </div> 
