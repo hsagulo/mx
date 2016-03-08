@@ -1,14 +1,32 @@
 section {
 	&.shop {
 		.entry-content {
-			background: url(../images/shop_bg.jpg)no-repeat center left;
-			background-size: cover;
-			padding: 2em 0 3em;
+			div {
+				min-height: 18em;
+				margin-bottom: 2em;
+				&:first-child {
+					> div {
+						background: url(../images/shop_bg.jpg)no-repeat center left;
+						background-size: cover;
+						h2 {
+							padding-right: 3em;
+						}
+					}
+				}
+				&:last-child {
+					> div {
+						background: green url(../images/grass_bg.jpg)no-repeat center left;
+						background-size: cover;
+						color: $white;
+					}
+				}
+
+			}
 			h2 {
 				font-size: 2.75em;
 				font-family: $oswald;
 				color: $white;
-				margin-bottom: .75em;
+				margin-bottom: 0;
 				@extend .caps;
 			}
 			a {
@@ -16,4 +34,27 @@ section {
 			}
 		}
 	}
+}
+
+@media screen and (max-width: 992px) {
+
+	section {
+		&.shop {
+			font-size: .8em;
+			.entry-content {
+				text-align: center;
+				div {
+					min-height: 14em;
+					&:first-child {
+						> div {
+							h2 {
+								padding-right: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
 }

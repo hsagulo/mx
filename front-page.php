@@ -1,12 +1,12 @@
 <?php
 //do not add in opening php tag
- 
+
 /**
  * @package MX
  * @author Harold Lupogan
  * @link http://onlinecrew.info
  */
- 
+
 cgp_genesis_no_content();
 function cgp_genesis_no_content() {
  cgp_genesis_header();
@@ -18,7 +18,7 @@ function cgp_genesis_header() {
  do_action( 'genesis_doctype' );
  do_action( 'genesis_title' );
  do_action( 'genesis_meta' );
- 
+
  wp_head(); //* we need this for plugins
  ?>
  </head>
@@ -138,12 +138,21 @@ function custom_front_page_loop() {
       <section class="shop" id="section-shopcta">
         <div class="container">
           <div class="col-md-12 entry-content">
-            <div class="col-md-6 col-md-offset-6">
-              <h2>Motocross Safety Gear and Accessories </h2>
-              <a href="http://www.bornracingmx.com" title="" class="btn btn-danger btn-lg" target="_blank">GO TO MX SHOP!</a>
+            <div class="col-md-6">
+              <div class="wrap">
+                <h2>Motocross Safety Gear and Accessories </h2>
+                <a href="http://www.bornracingmx.com" title="" class="btn btn-danger btn-lg" target="_blank">GO TO MX SHOP!</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="wrap">
+                <h2>Create a Free App for your Team </h2>
+                <p>Team App is a platform that allows teams and social groups to improve communication by creating their own smartphone app.</p>
+                <a href="http://www.bornracingmx.com" title="" class="btn btn-success btn-lg" target="_blank">GO TO MX SHOP!</a>
+              </div>
             </div>
           </div>
-        </div> 
+        </div>
       </section>
 
       <section class="contacts text-center" id="section-footer-widgets">
@@ -185,13 +194,13 @@ function custom_front_page_loop() {
 function cgp_genesis_footer() {
  genesis_structural_wrap( 'content-wrapper', 'close' );
  echo '</div>'; //* end .site-inner or #inner
- 
+
  do_action( 'genesis_before_footer' );
  do_action( 'genesis_footer' );
  do_action( 'genesis_after_footer' );
- 
+
  echo '</div>'; //* end .site-container or #wrap
- 
+
  do_action( 'genesis_after' );
  wp_footer(); //* we need this for plugins
  ?>

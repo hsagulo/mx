@@ -16,6 +16,10 @@ blockquote {
 	font-size: 1em;
 }
 
+.wrap {
+	padding: 1em;
+}
+
 a {
 	color: $link-color;
 	text-decoration: none;
@@ -25,5 +29,3 @@ a:hover {
 	color: $link-hover-color;
 	text-decoration: none;
 }
-
-
