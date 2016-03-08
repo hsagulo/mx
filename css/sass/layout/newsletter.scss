@@ -43,10 +43,25 @@ section {
                         background: #393939;
                         color: #fff;
                     }
-                
+
                 }
             }
         }
 
     }
+
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    &.newsletter {
+      .entry-content {
+        form {
+          input {
+            margin-bottom: 1em;
+          }
+        }
+      }
+    }
+  }
 }
