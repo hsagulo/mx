@@ -36,16 +36,14 @@ function cgp_genesis_header() {
  'context' => 'site-container',
  ) );
 
- echo '<div class="header-section text-center row">';
 
  do_action( 'genesis_before_header' );
  do_action( 'genesis_header' );
  do_action( 'genesis_after_header' );
 
- echo '<a href="#section-about"><i class="fa fa-2x fa-chevron-down"></i></a>';
 
- echo '</div>';
- 
+
+
  genesis_markup( array(
  'html5' => '<div %s>',
  'xhtml' => '<div id="inner">',
@@ -60,34 +58,54 @@ function custom_front_page_loop() {
 
     ?>
 
-      <section class="row about" id="section-about">
+      <section class="about" id="section-about">
         <div class="container">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h2 class="mb1em">About Us</h2>
-            <div class="photo mb2em">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/erika.jpg" alt="" class="circle">
+          <div class="row row-1 hello">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h1>Hello,</h1>
+              <h2>Welcome to MX Zen</h2>
+              <div class="entry-content">
+                <p class="mb2em">Zen is a way of being. In sports, its “the flow” or “in the zone”. If you're living in the world of motocross, you can relate to this because in motocross, its not a hobby, its a way of life. In the “flow”, the extraordinary capacities that lie within each individual manifest. To grasp this hidden dimension is to transform the very meaning of racing. “What separates the gold medalists from the silver medalists is simply the mental game.”</p>
+                <p class="mb2em"><a href="/about" class="btn btn-warning btn-lg">Read More</a></p>
+              </div>
             </div>
-            <div class="entry-content">
-              <p class="mb2em">Zen is a way of being. In sports, its “the flow” or “in the zone”. If your living in the world of motocross, you can relate to this because in motocross, its not a hobby, its a way of life. In the “flow”, the extraordinary capacities that lie within each individual manifest. The grasp this hidden dimension is to transform the very meaning of racing. “What separates the gold medalists from the silver medalists is simply the mental game.” </p>
-              <p class="mb2em"><a href="/about" class="btn btn-danger btn-lg">Read More</a></p>
+          </div>
+          <div class="row row-2 services">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h1>What We Do</h1>
+              <div class="entry-content">
+                <div class="col-md-4">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/services-marketing.png">
+                  <h3>Marketing &amp; Promotions</h3>
+                </div>
+                <div class="col-md-4">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/services-design.png">
+                  <h3>Design</h3>
+                </div>
+                <div class="col-md-4">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/services-website.png">
+                  <h3>Website</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="row projects text-center" id="section-projects">
+      <section class="projects text-center" id="section-projects">
         <div class="container">
           <header class="entry-header">
-            <h2 class="entry-title">Projects</h2>
+            <h1 class="entry-title">Want to See More?</h1>
+            <p><a href="/projects">CLICK HERE</a></p>
           </header>
           <div class="col-md-4 col-sm-6 item">
             <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_caseycochrans.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_caseycochran.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_kyle_v1.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v1.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v1.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
-            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/resume_kyle_v2.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v2.jpg" alt=""></a>
+            <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v2.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/KyleBorn_v2_thumb.jpg" alt=""></a>
           </div>
           <div class="col-md-4 col-sm-6 item">
             <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/mockup_kylebitterman.jpg" alt=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/portfolio_item.jpg" alt=""></a>
@@ -103,11 +121,11 @@ function custom_front_page_loop() {
         </div>
       </section>
 
-      <section class="row newsletter text-center" id="section-newsletter">
+      <section class="newsletter text-center" id="section-newsletter">
         <div class="container">
           <div class="col-md-10 col-md-offset-1">
             <header class="entry-header">
-              <h2 class="entry-title">Newsletter</h2>
+              <h1 class="entry-title">Newsletter</h1>
               <p><em>Stay updated with our latest events and promos! </em></p>
             </header>
             <div class="entry-content">
@@ -117,7 +135,7 @@ function custom_front_page_loop() {
         </div>
       </section>
 
-      <section class="row shop" id="section-shopcta">
+      <section class="shop" id="section-shopcta">
         <div class="container">
           <div class="col-md-12 entry-content">
             <div class="col-md-6 col-md-offset-6">
@@ -128,12 +146,12 @@ function custom_front_page_loop() {
         </div> 
       </section>
 
-      <section class="row contacts text-center" id="section-footer-widgets">
+      <section class="contacts text-center" id="section-footer-widgets">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3">
               <header class="entry-header mb2em">
-                <h2 class="entry-title">CONTACT</h2>
+                <h1 class="entry-title">Contact</h1>
                 <h3><a href="tel:7178171286" target="_blank">717-817-1286</a> / <a href="mailto:erika@mxzen.com" target="_blank">erika@mxzen.com</a></h3>
                 <p class="name">ERIKA BORN</p>
               </header>
@@ -143,14 +161,14 @@ function custom_front_page_loop() {
             </div>
           </div>
 
-          <div class="row socials" id="section-social">
+          <div class="socials" id="section-social">
             <h2>SOCIALS</h2>
             <ul class="list-inline">
-              <li><a href="https://www.facebook.com/bornracingmx" title="" target="_blank"><span class="fb"><i class="fa fa-lg fa-facebook-f"></i></span></a></li>
+              <li><a href="https://www.facebook.com/mxzenmarketing/" title="" target="_blank"><span class="fb"><i class="fa fa-lg fa-facebook-f"></i></span></a></li>
               <li><a href="https://twitter.com/borngroup" title="" target="_blank"><span class="tw"><i class="fa fa-lg fa-twitter"></i></span></a></li>
-              <li><a href="https://www.instagram.com/bornracingmx/" title="" target="_blank"><span class="ig"><i class="fa fa-lg fa-instagram"></span></i></a></li>
+              <li><a href="https://www.instagram.com/mxzenmarketing/" title="" target="_blank"><span class="ig"><i class="fa fa-lg fa-instagram"></span></i></a></li>
               <li><a href="https://plus.google.com/+ErikaBorn464" title="" target="_blank"><span class="lin"><i class="fa fa-lg fa-google-plus"></span></i></a></li>
-              <li><a href="#" title="" target="_blank"><span class="ho"><i class="fa fa-lg fa-hype"></i></span></a></li>
+              <!--<li><a href="#" title="" target="_blank"><span class="ho"><i class="fa fa-lg fa-hype"></i></span></a></li>-->
             </ul>
           </div>
         </div>

@@ -2,7 +2,8 @@
     font-size: 1em;
     background: url(../images/header_bg.jpg)no-repeat;
     background-size: cover;
-    padding-bottom:2em;
+    padding: 6em 0;
+    text-align: center;
 
     .nav-primary {
       font-size: 1.5em;
@@ -30,6 +31,10 @@
         }
       }
     }
+
+  .arrow-down {
+    display: none;
+  }
 }
 
 .site-header {
@@ -37,13 +42,14 @@
     width: 8em;
     float: left;
     .site-title {
+      font-size: 1em;
         a {
           width: 100%;
           background: url(../images/logo.png) no-repeat top center;
           background-size: 100%;
           text-indent: -10000px;
           display: inline-block;
-          min-height: 4em;
+          min-height: 10em;
         }
     }
   }
@@ -56,7 +62,7 @@
   .widget-area {
     width: 50%;
     font-family: $universLtBoldCn;
-    padding-top: 3em;
+    padding-top: 2em;
     padding-right: 2em;
     text-align: right;
     float: right;
@@ -64,6 +70,8 @@
       font-size: 3em;
     }
   }
+
+  
 
 }
 
@@ -77,5 +85,13 @@
               }
           }
       }
+  }
+}
+
+.home {
+  .header-section {
+    .arrow-down {
+      display: block;
+    }
   }
 }

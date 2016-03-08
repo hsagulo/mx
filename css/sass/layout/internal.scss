@@ -1,0 +1,20 @@
+.category-works {
+	.entry-header {
+		display: none;
+	}
+	.entry-footer {
+		display: none;
+	}
+
+}
+
+.project-item {
+	background: $black;
+	border: 5px solid lighten($gray-light, 20%);
+	&:hover {
+		border: 5px solid $brand-warning;
+		img {
+			opacity: .9;
+		}
+	}
+}	

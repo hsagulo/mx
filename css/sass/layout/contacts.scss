@@ -3,7 +3,7 @@ section {
     font-size: 1em;
     padding: 3em 0 4em;
 
-    h2,h3 {
+    h1,h3 {
       font-family: $universLtBoldCn;
     }
 
@@ -60,14 +60,14 @@ section {
             @extend .circle;
           }
         }
-        &:last-child {
-          span {
-            background: $black url(../images/hookit.png)no-repeat center;
-            &:hover {
-              background-color: lighten($black, 10%);
-            }
-          }
-        }
+        // &:last-child {
+        //   span {
+        //     background: $black url(../images/hookit.png)no-repeat center;
+        //     &:hover {
+        //       background-color: lighten($black, 10%);
+        //     }
+        //   }
+        // }
       }
     }
   }

@@ -108,10 +108,15 @@ function mx_before_header() {
 add_action( 'genesis_after_header', 'genesis_do_new_header' ); 
 function genesis_do_new_header() { 
 		genesis_do_nav();
-	echo '</div></div>';
+	echo '</div> <a href="#section-about" class="arrow-down"><i class="fa fa-2x fa-chevron-down"></i></a> </div>';
 }  
 
 
+
+	remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+	remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+	remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+	remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
 
 
 

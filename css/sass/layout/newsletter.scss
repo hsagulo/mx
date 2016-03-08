@@ -5,16 +5,16 @@ section {
 
         .entry-header {
             margin-bottom: 2em;
-            h2.entry-title {
-                @extend .caps;
+            h1.entry-title {
+                font-size: 3em;
                 @extend .htags;
                 &:before {
-                    content: ' ';
-                    display: block;
-                    width: 1.5em;
+                    content: '';
+                    width: .85em;
                     height: 2px;
-                    background: #36fe00;
-                    margin: 1em auto;
+                    background: #BCD530;
+                    display: block;
+                    margin: .25em auto .4em;
                 }
             }
         }

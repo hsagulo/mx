@@ -1,10 +1,11 @@
 a {
   &.btn {
   	font-family: $oswald;
-  	font-size: 1.4em;
+  	font-size: 1.2em;
   	text-transform: uppercase;
     @extend .noradius;
     padding: .5em 1em;
+    border: none;
     
     &.btn-success {
       background: $brand-success;

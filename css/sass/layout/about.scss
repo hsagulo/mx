@@ -1,27 +1,47 @@
-section {
-	&.about {
-		font-size: 1.125em;
-		padding: 2em 0;
+.about {
+  font-size: 1.125em;
+  padding: 2em 0;
+  background: url(../images/logobg.png)no-repeat top right;
 
-		h2 {
-		@extend .caps;
-		@extend .htags;
-		&:before {
-			content: ' ';
-	        display: block;
-	        width: 1.5em;
-	        height: 2px;
-	        background: #36fe00;
-	        margin: 1em auto;
-			}
-		}
+  h1, h2 {
+      @extend .htags;
+      font-size: 3em;
+      line-height: 1;
+  }
 
-		.entry-content {
-			p {
-				font-size: 1em;
-				font-family: $universLt;
-				margin-bottom: 2em;
-			}
-		}
-	}
+  h1 {
+      &:before {
+          content: '';
+          width: .85em;
+          height: 2px;
+          background: $green;
+          display: block;
+          margin: .25em auto .4em;
+      }
+  }
+
+  h2 {
+      margin-bottom: .875em;
+  }
+
+  h3 {
+      font-size: 1.1em;
+      font-family: $universLt;
+      @extend .caps;
+  }
+
+  .entry-content {
+      p {
+          font-size: 1.2em;
+          font-family: $universLt;
+          margin-bottom: 2em;
+      }
+  }
+
+  .services {
+      margin-bottom: 2em;
+      h1 {
+          margin-bottom: 1em;
+      }
+  }
 }

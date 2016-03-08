@@ -1,9 +1,23 @@
 .site-footer {
 	text-align: center;
+	color: $gray-light;
+	a {
+		color: $gray-light;
+		&:hover {
+			color: darken($gray-light, 10%);
+		}
+	}
 }
 
 .page {
 	.site-footer {
 		margin-top: 5em;
+		text-align: left;
+	}
+}
+
+.single {
+	.site-footer {
+		text-align: left;
 	}
 }

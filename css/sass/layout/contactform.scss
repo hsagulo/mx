@@ -1,0 +1,16 @@
+.wpcf7-list-item {
+  margin-left: 0.5em;
+  display: inline-block;
+  margin-right: 3em;
+  width: 2em;
+
+  input[type="radio"] {
+    float: left;
+    width: 1em;
+  }
+
+  .wpcf7-list-item-label {
+    float: left;
+  }
+
+}
